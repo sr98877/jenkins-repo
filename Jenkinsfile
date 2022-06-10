@@ -27,5 +27,4 @@ stages {
 			echo "deployement has been completed"
 		}
 	}
-}
 } 
