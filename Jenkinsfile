@@ -22,7 +22,7 @@ stages {
 			}
 		}
  	}
-	stage('Deploy to Prod'} {
+	stage('Deploy to Prod') {
 		steps {
 			echo "deployement has been completed"
 		}
