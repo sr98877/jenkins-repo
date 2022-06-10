@@ -12,7 +12,7 @@ stages {
 	stage('Build') {
 		steps {
 			echo "hey new world is coming"
-			sh 'mvn clean package'
+			sh 'mvn clean package -Denforcer.skip=true'
 		}
 	}
 	stage('Deploy') {
