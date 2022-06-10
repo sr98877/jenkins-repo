@@ -25,6 +25,7 @@ stages {
 	stage('Prod') {
 		steps {
 			echo "deployement has been completed"
-			}
+		}
 	}
+   }
 } 
