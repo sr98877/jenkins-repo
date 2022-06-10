@@ -21,11 +21,11 @@ stages {
 			sh 'java -jar target/*.jar'
 			}
 		}
- 	}
+ 	
 	stage('Deploy to Prod') {
 		steps {
 			echo "deployement has been completed"
 		}
 	}
-} 
-
+  }  
+}
