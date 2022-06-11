@@ -1,6 +1,6 @@
 pipeline {
 
-agent { jenkins-slave1 }
+agent { label 'new_slave_pipeline' }
 
 stages {
 	stage('SCM') {
@@ -29,3 +29,4 @@ stages {
 	}
   }  
 }
+
